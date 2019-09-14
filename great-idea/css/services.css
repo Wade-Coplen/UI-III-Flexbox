@@ -47,8 +47,14 @@ table {
 	border-spacing: 0;
 }
 /* ____________________my code_______________ */
-nav {
+.container {
 	display: flex;
+}
+.container .item {
+	width: 60px;
+	height: 50px;
+	background: lightgray;
 	border: 1px solid black;
-	width: 300px;
+	margin: 20px;
+
 }
